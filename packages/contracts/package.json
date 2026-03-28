@@ -1,0 +1,20 @@
+{
+  "name": "@phygital-trace/contracts",
+  "version": "0.1.0",
+  "description": "Phygital-Trace smart contracts",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "lint": "solhint 'src/**/*.sol'",
+    "deploy:base-sepolia": "hardhat run scripts/deploy.ts --network base-sepolia",
+    "deploy:base": "hardhat run scripts/deploy.ts --network base",
+    "deploy:local": "hardhat run scripts/deploy.ts --network localhost"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@openzeppelin/contracts": "^5.0.0",
+    "hardhat": "^2.22.0",
+    "solhint": "^5.0.0",
+    "typescript": "^5.6.0"
+  }
+}

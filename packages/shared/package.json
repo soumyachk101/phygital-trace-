@@ -1,0 +1,17 @@
+{
+  "name": "@phygital-trace/shared",
+  "version": "0.1.0",
+  "description": "Shared types and utilities for Phygital-Trace",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "typecheck": "tsc --noEmit",
+    "clean": "rm -rf dist"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0",
+    "@types/node": "^20.14.0"
+  }
+}

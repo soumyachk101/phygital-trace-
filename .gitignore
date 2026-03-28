@@ -1,0 +1,68 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Database
+*.db
+*.sqlite
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+docker-compose.override.yml
+
+# Testing
+coverage/
+.nyc_output
+
+# Misc
+.cache/
+tmp/
+temp/
+*.pid
+
+# Prisma
+packages/api/prisma/migrations/*/migration_lock.toml
+
+# AI service
+packages/ai-service/.venv/
+packages/ai-service/__pycache__/
+packages/ai-service/*.pyc
+
+# Hardhat
+packages/contracts/cache/
+packages/contracts/artifacts/
+packages/contracts/typechain-types/
+packages/contracts/.solidity/compiler/
+packages/contracts/.solidity/imports/
+
+# Secrets
+*.pem
+*.key
+*.crt

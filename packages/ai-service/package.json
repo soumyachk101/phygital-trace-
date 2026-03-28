@@ -1,0 +1,14 @@
+{
+  "name": "@phygital-trace/ai-service",
+  "version": "0.1.0",
+  "description": "AI anomaly detection service for Phygital-Trace",
+  "scripts": {
+    "start": "uvicorn main:app --host 0.0.0.0 --port 8000",
+    "dev": "uvicorn main:app --reload --host 0.0.0.0 --port 8000",
+    "test": "pytest",
+    "lint": "ruff .",
+    "typecheck": "mypy .",
+    "install-deps": "pip install -r requirements.txt"
+  },
+  "private": true
+}
